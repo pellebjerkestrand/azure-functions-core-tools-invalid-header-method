@@ -1,0 +1,21 @@
+{
+  "main": "app/*.js",
+  "name": "azure-functions-core-tools-invalid-header-method",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "func start --cert certs/localhost.pfx --password password --port 7072 --useHttps --javascript",
+    "test": "playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pellebjerkestrand/azure-functions-core-tools-invalid-header-method.git"
+  },
+  "author": "Pelle Bjerkestrand",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@azure/functions": "^4.2.0",
+    "@playwright/test": "^1.41.2",
+    "azure-functions-core-tools": "^4.0.5530",
+    "playwright-chromium": "^1.41.2"
+  }
+}
