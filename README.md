@@ -11,7 +11,7 @@ In another context, run:
 npm test
 ```
 
-You should, in this second context, see something like
+You should, in the first context, see something like
 
 ```
 Exception: Headers.append: ":method" is an invalid header name.
